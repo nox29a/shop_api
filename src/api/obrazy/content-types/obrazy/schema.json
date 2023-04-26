@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "obrazies",
+  "info": {
+    "singularName": "obrazy",
+    "pluralName": "obrazies",
+    "displayName": "Obrazy",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "paint": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "avalible": {
+      "type": "boolean"
+    }
+  }
+}
